@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(4, 67, 67);
+  background-color: rgb(2 41 41);
 }
 .container {
   padding: 40px 0;
@@ -19,7 +19,7 @@ body {
   align-items: center;
   /* gap: 30px; */
   background: linear-gradient(to top left, rgb(5, 114, 116), rgb(39, 208, 171));
-  min-width: 365px;
+  width: 365px;
   border-radius: 10px;
 }
 
@@ -105,4 +105,12 @@ footer img {
 .humidity-text p:last-child,
 .wind-text p:last-child {
   font-size: 13px;
+}
+
+@media (max-width: 372px) {
+  .container {
+    width: 330px !important;
+    margin: auto;
+    padding: 25px 0;
+  }
 }
