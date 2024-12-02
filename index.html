@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/all.css" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <input type="text" class="search-input" placeholder="enter city name" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
+      <div class="sub-cont">
+        <main>
+          <img src="images/clear.png" alt="" class="weather-icon" />
+          <div class="main-text">
+            <p><span class="deg">22</span>°C</p>
+            <h2 class="city">Cairo</h2>
+          </div>
+        </main>
+        <footer>
+          <div class="humidity foot-cont">
+            <img
+              src="images/11061358-removebg-preview.png"
+              alt=""
+              class="humidity-img"
+            />
+            <div class="humidity-text">
+              <p><span class="hum-deg">90</span>%</p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <div class="wind foot-cont">
+            <img src="images/wind.png" alt="" class="wind-img" />
+            <div class="wind-text">
+              <p><span class="wind-deg">2.68</span>km/h</p>
+              <p>wind speed</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="JS/all.js"></script>
+    <script src="JS/all.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
